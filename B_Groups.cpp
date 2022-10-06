@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std; 
 
 int main(){
@@ -9,6 +9,7 @@ int main(){
         cin>> n; 
         vector<vector<bool>> grid(n, vector<bool> (5, false)); 
         bool ava; 
+        bool ansPrinted= false; 
         for(int i= 0; i< n; i++){
             for(int j= 0; j< 5; j++){
                 cin>> ava; 
@@ -42,12 +43,15 @@ int main(){
                 }
                 if(A+ B+ AB== n){
                     cout<< "YES"<< endl; 
+                    ansPrinted= true; 
                 }
 
             }
         }
-        cout<< "NO"<< endl; 
-
+        if(!ansPrinted){
+             cout<< "NO"<< endl;
+        }
+       
     }
     return 0; 
 }
