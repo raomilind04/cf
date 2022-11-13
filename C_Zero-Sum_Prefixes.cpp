@@ -1,5 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std; 
+typedef long long ll; 
+
+int main(){
+    int t; 
+    cin>> t; 
+    while(t--){
+
+    }
+    return 0; 
+}
+
+
+
+
+
+/* #include <bits/stdc++.h>
+using namespace std; 
 
 int main(){
     int t; 
@@ -25,8 +42,11 @@ int main(){
                 }
             }
         }
+        for(int i= n-1; i>= 0; i++){
+            
+        }
         cout<< res<< endl; 
 
     }
     return 0; 
-}
+} */

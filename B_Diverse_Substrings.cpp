@@ -1,3 +1,28 @@
+/* #include <bits/stdc++.h>
+using namespace std; 
+typedef long long ll; 
+
+int main(){
+    int t; 
+    cin>> t; 
+    while(t--){
+        ll n; 
+        cin>> n; 
+        string s; 
+        cin>> s; 
+        ll ans= 0; 
+        for(ll i= 0; i< s.length(); i++){
+            int 
+        }
+
+    }
+    return 0; 
+} */
+
+
+
+
+
 #include <bits/stdc++.h>
 using namespace std; 
 
@@ -18,7 +43,7 @@ int main(){
             unordered_map<int, int> m; 
              temp= 0; 
              maxi= INT_MIN; 
-            for(int j= i; j< min(n,100); j++){
+            for(int j= i; j< min(n,i+100); j++){
                 if(m.find(v[j]- '0')== m.end()){
                     temp++; 
                 }
