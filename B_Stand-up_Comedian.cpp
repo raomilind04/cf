@@ -44,6 +44,7 @@ void solve(){
         else if(hb > 0 && a2 > 0){
                 int add = min(hb, a2); 
                 ha += add;
+                hb -= add; 
                 count += add ;
                 a2 -= add;
         }
