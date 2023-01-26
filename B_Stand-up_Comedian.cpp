@@ -2,6 +2,33 @@
 using namespace std; 
 typedef long long ll;
 
+void solve(){
+    int a1 , a2 , a3 , a4; 
+    cin >> a1 >> a2 >> a3 >> a4 ; 
+    if(a1 == 0){
+        cout << 1 << endl ;
+        return ; 
+    }
+    cout << a1 + min(a2 , a3)*2 + min(a1+1 , abs(a2-a3)+a4) << endl; 
+    return ; 
+}
+
+int main(){
+    int t; 
+    cin>> t; 
+    while(t){
+        solve(); 
+        t--; 
+    }
+    return 0;
+}
+
+
+
+/* #include <bits/stdc++.h>
+using namespace std; 
+typedef long long ll;
+
 bool check(int a, int b, int c){
     if(a != 0 || b!= 0 || c!= 0){
         return true; 
@@ -83,3 +110,4 @@ int main(){
     }
     return 0;
 }
+ */
